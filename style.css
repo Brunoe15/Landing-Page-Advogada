@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Overpass&family=Roboto:wght@300&family=Scope+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Página de inicio com logo, especialidade e atendimento da advogada*/
+
+.principal{
+    width: 100%;
+    height: 550px;
+    background-image: url(Imagens/back_prin.png);
+    display: flex;
+}
+.intro{
+    max-width: 50%;
+    height: 100%;
+}
+#logo{
+    height: 90px;
+    margin-top: 12%;
+    margin-left: 30%;
+}
+#tit{
+    width: 70%;
+    height: auto;
+    margin: 2% 30% 3%;
+    font-family: 'Scope One', serif;
+    font-size: 35px;
+    color: #401E12;
+}
+#p_tit{
+    width: 70%;
+    height: auto;
+    margin: 0 30% 3%;
+    font-family: 'Overpass', sans-serif;
+    color: #401E12;
+}
+#atendimento{
+    width: 45%;
+    height: auto;
+    margin: 0 30% 3%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+    color: #401E12;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#notebook{
+    width: 20px;
+    height: 23px;
+    position: relative;
+    bottom: 2px;
+}
+#horario{
+    width: 45%;
+    height: auto;
+    margin: -3% 0% 3% 30%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#relogio{
+    width: 20px;
+    height: 21px;
+    position: relative;
+    bottom: 2px;
+}
+#contato1{
+    margin: 0 30%;
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #BF495E;
+    color: white;
+    transition: all 0.2s ease;
+}
+#contato1:active{
+    transform: scale(0.86);
+}
+#whats{
+    height: 18px;
+    padding-top: 4px;
+    filter: invert(100%);
+}
+
+
+/*Imagem da advogada*/
+
+.advogada1{
+    width: 50%;
+    height: 100%;
+}
+#square1{
+    border-radius: 15px;
+    margin: 12% 35% 0% 10%;
+    height: 75%;
+}
+#img_advo{
+    height: 112%;
+    margin: -33px 85px;
+    filter: drop-shadow(10px 7px 8px black);
+}
+
+/*Discrição e atendimento*/
+
+.discricao_atendimento{
+    background: linear-gradient(to right, #fdfdfd, #f2dfba);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#discricao_square{
+    border-top: 1.5px solid #7a4f40;
+    border-bottom: 1.5px solid #7a4f40;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+#discricao_h2{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #9C3B4D;
+}
+#discricao_p{
+    font-family: 'Overpass', sans-serif;
+    color: #401E12;
+    margin-top: 10px;
+    width: 70%;
+}
+#atendimento_square{
+    border-top: 1.5px solid #7a4f40;
+    border-bottom: 1.5px solid #7a4f40;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+#atendimento_h2{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #9C3B4D;
+}
+#atendimento_p{
+    font-family: 'Overpass', sans-serif;
+    color: #401E12;
+    margin-top: 10px;
+    width: 60%;
+}
+
+/*Areas De Atuação*/
+
+.areas_de_atuacao{
+    background: linear-gradient(to right, #fdfdfd, #f2dfba);
+    height: auto;
+    width: 100%;
+}
+#areas_atuacao_h2{
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #401E12;
+}
+#areas_atuacao_h1{
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #9C3B4D;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.areas_square{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Quadrado 1 com informações das áreas de atuação da advogada*/
+
+#areas_square_1{
+    border: 4px solid #BF495E;
+    background: #f2f2f0;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 45px;
+    margin-top: 40px;
+}
+#d_civil_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    position: relative;
+    bottom: 65px;
+}
+#circle_1{
+    background: #BF495E;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#img_civil{
+    position: relative;
+    top: 7px;
+}
+#civil_h3_1{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: #401E12;
+}
+#civil_p_1{
+    font-family: 'Overpass', sans-serif;
+    font-size: 17px;
+    color: #401E12;
+}
+
+/*Quadrado 2 com informações das áreas de atuação da advogada*/
+#areas_square_2{
+    border: 4px solid #BF495E;
+    background: #f2f2f0;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 40px;
+}
+#d_civil_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    position: relative;
+    bottom: 60px;
+}
+#circle_2{
+    background: #BF495E;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#img_trabalhista{
+    position: relative;
+    top: 7px;
+    left: 1px;
+}
+#civil_h3_2{
+    font-family: 'Scope One', serif;
+    font-size: 28px;
+    color: #401E12;
+}
+#civil_p_2{
+    font-family: 'Overpass', sans-serif;
+    color: #401E12;
+}
+
+/*Quadrado 3 com informações das áreas de atuação da advogada*/
+#areas_square_3{
+        background: #f2f2f0;
+        border: 4px solid #BF495E;
+        width: 30%;
+        height: 90%;
+        border-radius: 20px;
+        padding: 40px;
+        margin-top: 40px;
+    }
+#d_civil_3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        position: relative;
+        bottom: 60px;
+}
+#circle_3{
+        background: #BF495E;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+}
+#img_tributario{
+    position: relative;
+    top: 8px;
+    left: 1px;
+}
+#civil_h3_3{
+        font-family: 'Scope One', serif;
+        font-size: 28px;
+        color: #401E12;
+}
+#civil_p_3{
+        font-family: 'Overpass', sans-serif;
+        font-size: 16px;
+        color: #401E12;
+}
+
+/*Botão*/
+#contato2{
+    margin: 3% 37%;
+    position: relative;
+    left: 8px;
+    width: 25%;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #BF495E;
+    color: white;
+    transition: all 0.2s ease;
+}
+#contato2:active{
+    transform: scale(0.86);
+}
+#whats{
+    height: 18px;
+    padding-top: 4px;
+    filter: invert(100%);
+}
+
+/*Sobre a Advogada*/
+
+.sobre{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #fdfdfd, #f2dfba);
+    display: flex;
+    padding-bottom: 100px;
+}
+.img_sobre{
+    width: 50%;
+}
+#square2{
+    width: 40%;
+    height: 350px;
+    background-color: #f2f2f0;
+    border: 2px solid #BF495E;
+    border-radius: 16px;
+    margin: 15% 50%;
+}
+#img_advogada{
+    width: 90%;
+    position: relative;
+    bottom: 47px;
+    left: 18px;
+    filter: drop-shadow(10px 7px 8px black);
+}
+.sociais{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#instagram{
+    filter: drop-shadow(5px 6px 7px black);
+}
+#instagram:hover{
+    width: 45px;
+}
+#linkedin{
+    filter: drop-shadow(5px 6px 7px black);
+}
+#linkedin:hover{
+    width: 45px;
+}
+#email{
+    filter: drop-shadow(5px 6px 7px black);
+}
+#email:hover{
+    width: 45px;
+}
+.sobre_mim{
+    margin-top: -25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 0% 20% 0% 5%;
+}
+#sobre_h2{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #9C3B4D;
+    margin-top: 40%;
+}
+#sobre_p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 17px;
+    color: #401E12;
+}
+#contato3{
+    margin: 4% 30%;
+    width: 60%;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #BF495E;
+    color: white;
+    transition: all 0.2s ease;
+}
+#contato3:active{
+    transform: scale(0.86);
+}
+#whats{
+    height: 18px;
+    padding-top: 4px;
+    filter: invert(100%);
+}
+
+/*Comentarios*/
+
+.comentarios{
+    width: 100%;
+    height: auto;
+    background: #90353b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#coment_h1{
+    margin-top: 4%;
+    font-family: 'Scope One', serif;
+    font-size: 35px;
+    color: #f2f2f0;
+    letter-spacing: 3px;
+}
+.coment_squares_1{
+    margin-top: 1%;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+/*Comentario 1*/
+#coment_square1{
+    border: 2px solid rgb(190, 169, 172);
+    border-radius: 5px;
+    width: 45%;
+    background: linear-gradient(180deg, rgba(144,53,59,1) 42%, rgb(161, 79, 88) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+}
+#stars{
+    width: 80px;
+    height: 18px;
+    filter: drop-shadow(2px 3px 4px black);
+
+}
+#coment_h3_1{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: rgb(223, 223, 223);
+}
+#coment_p1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #f2f2f0;
+}
+ /*Comentario 2 */
+#coment_square2{
+    border: 2px solid rgb(190, 169, 172);
+    border-radius: 5px;
+    width: 45%;
+    background: linear-gradient(180deg, rgba(144,53,59,1) 42%, rgb(161, 79, 88) 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 15px;
+}
+#coment_h3_2{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: rgb(223, 223, 223);
+}
+#coment_p2{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #f2f2f0;
+}
+
+/*Comentario 3*/
+#coment_square3{
+    border: 2px solid rgb(190, 169, 172);
+    border-radius: 5px;
+    width: 45%;
+    background: linear-gradient(180deg, rgba(144,53,59,1) 42%, rgb(161, 79, 88) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+}
+#coment_h3_3{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: rgb(223, 223, 223);
+}
+#coment_p3{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #f2f2f0;
+}
+
+.coment_squares_2{
+    margin-top: 1%;
+    width: 70%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-bottom: 4%;
+    gap: 10px;
+}
+
+/*Comentario 4*/
+#coment_square4{
+    border: 2px solid rgb(190, 169, 172);
+    border-radius: 5px;
+    width: 45%;
+    background: linear-gradient(180deg, rgba(144,53,59,1) 42%, rgb(161, 79, 88) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+}
+#coment_h3_4{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: rgb(223, 223, 223);
+}
+#coment_p4{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #f2f2f0;
+}
+
+/*Comentario 5*/
+#coment_square5{
+    border: 2px solid rgb(190, 169, 172);
+    border-radius: 5px;
+    width: 45%;
+    background: linear-gradient(180deg, rgba(144,53,59,1) 42%, rgb(161, 79, 88) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+}
+#coment_h3_5{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: rgb(223, 223, 223);
+}
+#coment_p5{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #f2f2f0;
+}
+
+/*Comentario 6*/
+#coment_square6{
+    border: 2px solid rgb(190, 169, 172);
+    border-radius: 5px;
+    width: 45%;
+    background: linear-gradient(180deg, rgba(144,53,59,1) 42%, rgb(161, 79, 88) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+}
+#coment_h3_6{
+    font-family: 'Scope One', serif;
+    font-size: 25px;
+    color: rgb(223, 223, 223);
+}
+#coment_p6{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #f2f2f0;
+}
+
+/*rodape com informações do desenvolvedor*/
+
+.rodape{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #fdfdfd, #f2dfba);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% ;
+}
+#p_adv_rodape{
+    font-size: 18px;
+    font-family: 'Scope One', serif;
+    color: #401E12;
+}
+#p_rodape{
+    font-size: 18px;
+    font-family: 'Scope One', serif;
+}
+#a_rodape{
+    font-size: 19px;
+    font-family: 'Scope One', serif;
+    text-decoration: underline;
+    padding-left: 4px;
+    color: #9C3B4D;
+}

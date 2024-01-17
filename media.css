@@ -1,0 +1,340 @@
+@media screen and (max-width: 767px){
+
+    /*Página de inicio com logo, especialidade e atendimento da advogada*/
+
+    .principal{
+        height: 100%;
+        display: block;
+        background-image: none;
+    }
+    .intro{
+        max-width: 90%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #logo{
+        height: 120px;
+        margin-left: 10%;
+    }
+    #tit{
+        width: 100%;
+        height: auto;
+        margin: 3% 5% 3%;
+    }
+    #p_tit{
+        width: 100%;
+        height: auto;
+        margin: 0 5% 3%;
+    }
+    #atendimento{
+        border-top: 1px solid #401E12;;
+        width: 55%;
+        height: auto;
+        margin: 0% 28% 3%;
+        padding-top: 3%;
+    }
+    #horario{
+        border-bottom: 1px solid #401E12;
+        width: 55%;
+        margin: 0% 28% 3%;
+        padding: 0% 8% 2%;
+    }
+    #contato1{
+        margin: 0% 30% 5%;
+        width: 50%;
+        height: 45px;
+        font-size: 18px;
+        font-family: 'Overpass', sans-serif;
+        padding-top: 3px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        background-color: #BF495E;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    .advogada{
+        display: none;
+    }
+    #square1, #img_advo{
+        display: none;
+    }
+
+    /*Discrição e atendimento*/
+    
+    .discricao_atendimento{
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    #discricao_square{
+        width: 100%;
+    }
+    #atendimento_square{
+        border-top: none;
+        padding-top: 1%;
+        padding-bottom: 4%;
+        width: 100%;
+        margin-top: -11%;
+        margin-bottom: 0%;
+    }
+
+    /*Areas De Atuação*/
+
+    #areas_atuacao_h1{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .areas_square{
+        height: 300px;
+        flex-direction: column;
+    }
+
+    /*Quadrado 1 com informações das áreas de atuação da advogada*/
+    #areas_square_1{
+        width: 90%;
+        margin-top: 150%;
+    }
+
+    /*Quadrado 2 com informações das áreas de atuação da advogada*/
+    #areas_square_2{
+    width: 90%;
+    }
+
+    /*Quadrado 3 com informações das áreas de atuação da advogada*/
+    #areas_square_3{
+        width: 90%; 
+    }
+
+    /*Botão*/
+    #contato2{
+        margin: 145% 20% 15%;
+        height: 50px;
+        width: 55%;
+    }
+
+    /*Sobre a Advogada*/
+
+    .sobre{
+        margin-top: -10%;
+        display: block;
+    }
+    .img_sobre{
+        width: 100%;
+    }
+    #square2{
+        width: 80%;
+        height: auto;
+        border: none;
+        background-color: transparent;
+        margin: 8% 10% 0%;
+        padding-top: 8%;
+    }
+    #img_advogada{
+        width: 70%;
+        position: relative;
+        bottom: 47px;
+        left: 58px;
+    }
+    .sobre_mim{
+        margin-top: -95px;
+        width: 90%;
+        display: block;
+        padding: 0% 0% 0% 5%;
+        margin-left: 2%;
+    }
+    #sobre_p{
+        padding-top: 5%;
+    }
+    #contato3{
+        margin: 10% 15% 0%;
+        width: 70%;
+    }
+
+    /*Comentarios*/
+
+    .comentarios{
+        display: block;
+        margin-bottom: -50%;
+    }
+    #coment_h1{
+        margin-top: 0%;
+        padding: 5% 5% ;
+        display: flex;
+        text-align: center;
+    }
+    .coment_squares_1{
+        display: block;
+        width: 100%;
+    }
+
+    /*Comentario 1*/
+    #coment_square1{
+    width: 90%;
+    margin-left: 5%;
+}
+
+    /*Comentario 2*/
+    #coment_square2{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+    /*Comentario 3*/
+    #coment_square3{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .coment_square_2{
+        display: none;
+    }
+    #coment_square4, #coment_square5, #coment_square6{
+        display: none;
+    }
+    
+    /*rodape com informações do desenvolvedor*/
+    .rodape{
+        height: 200px;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    /*Página de inicio com logo, especialidade e atendimento da advogada*/
+
+    .principal{
+        height: 100%;
+        display: block;
+        background-image: none;
+    }
+    .intro{
+        max-width: 90%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #logo{
+        height: 120px;
+        margin-left: 10%;
+    }
+    #tit{
+        width: 100%;
+        height: auto;
+        margin: 3% 5% 3%;
+    }
+    #p_tit{
+        width: 100%;
+        height: auto;
+        margin: 0 5% 3%;
+        font-size: 20px;
+    }
+    #atendimento{
+        border-top: 1px solid #401E12;;
+        width: 45%;
+        height: auto;
+        margin: 0% 33% 3%;
+        padding-top: 3%;
+    }
+    #horario{
+        border-bottom: 1px solid #401E12;
+        width: 45%;
+        margin: 0% 33% 3%;
+        padding: 0% 8% 2%;
+    }
+    #contato1{
+        margin: 0% 30% 5%;
+        width: 50%;
+    }
+    .advogada{
+        display: none;
+    }
+    #square1, #img_advo{
+        display: none;
+    }
+
+
+    /*Areas De Atuação*/
+
+    #areas_atuacao_h2{
+        padding-top: 10px;}
+
+    #areas_atuacao_h1{
+        width: 60%;
+        margin-left: 20%;
+        padding-bottom: 5%;
+    }
+
+    /*Quadrado 1 com informações das áreas de atuação da advogada*/
+
+    #areas_square_1{
+    height: 165%;
+    margin-top: 235px;
+    }
+    #areas_square_2{
+    height: 165%;
+    margin-top: 235px;
+    }
+    #areas_square_3{
+    height: 165%;
+    margin-top: 235px;
+    }
+
+    /*Botão*/
+    #contato2{
+    margin: 32% 24% 10%;
+    width: 50%;
+    border: none;
+    background-color: #BF495E;
+    color: white;
+    transition: all 0.2s ease;
+    }
+
+    /*Sobre a Advogada*/
+
+    #square2{
+    width: 65%;
+    margin: 15% 30%;
+    }
+    #img_advogada{
+    width: 88%;
+    position: relative;
+    bottom: 26px;
+    left: 13px;
+    padding-bottom: 10px;
+    }
+    .sobre_mim{
+    margin-top: -65px;
+    padding: 0% 5% 0% 3%;
+    }
+    #contato3{
+    margin: 1% 30%;
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    }
+
+    /*Comentarios*/
+
+    .comentarios{
+    width: 100%;
+    height: 500px;
+    }
+    .coment_squares_1{
+        width: 95%;
+    }
+    .coment_square_2{
+        display: none;
+    }
+    #coment_square4, #coment_square5, #coment_square6{
+        display: none;
+    }
+}
+
+
